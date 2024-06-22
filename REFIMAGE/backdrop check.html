@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Backdrop Filter Example</title>
+<style>
+  body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url(./Screenshot\ 2024-06-13\ 213450.png); /* Plain white background */
+  }
+
+  .backdrop-filter-container {
+    width: 300px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.7); /* White background with some transparency */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); /* For Safari support */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px; /* Optional: adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
+  }
+
+  .content {
+    font-size: 24px;
+    color: black;
+  }
+</style>
+</head>
+<body>
+  <div class="backdrop-filter-container">
+    <div class="content">Hello, World!</div>
+  </div>
+</body>
+</html>
