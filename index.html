@@ -8,13 +8,22 @@
     <link rel="stylesheet" href="style.css"">
 </head>
 <body>
-    <!-- <div id="loader">
+    <div id="loader">
         <h1>VISION</h1>
         <h1>DEDICATION</h1>
         <h1>PASSION</h1>
         
-    </div> -->
-    <div id="menu"></div>
+    </div>
+    <div class="up" id="menu">
+        <div class="menuheading"><h1>Jumping Straight to Conclusions, <br>Why not just Scroll? </h1></div>
+        <div class="menucontent">
+            <div class="menuspan">To The Top</div>
+            <div class="menuspan">Trendy Designs</div>
+            <div class="menuspan">Our Work</div>
+            <div class="menuspan">Appraisals</div>
+            <div class="menuspan">That would be Me</div>
+        </div>
+    </div>
     <div id="main">
         <div id="page1">
             
@@ -25,7 +34,12 @@
                 <div class="navpart2">
                     <div id="wraper">
                     <h4 class="navigator"><a href="#">Let's Team Up</a></h4>
-                    <h4 class="navigator" id="heh" ><a style="color: black;" href="#">&#9776 Menu</a></h4>
+                    <h4 class="navigator" id="heh" ><a style="color: black;" href="#"><input onclick="menuslider()" type="checkbox" id="menu_checkbox">
+<label for="menu_checkbox">
+  <div id="clicker" onclick="menuslider()"></div>
+  <div id="clicker" onclick="menuslider()"></div>
+  <div id="clicker" onclick="menuslider()"></div>
+</label></a></h4>
                    </div></div>
                 </div>
             
@@ -34,7 +48,7 @@
                 <div id="left">
                     <h3 id="leftpara">We Design Powerful Websites By Bridging the Gap between Strategy and Design</h3>
                     <ul id="demolist"> <li class="demoitem">Design</li><li class="demoitem">Develop</li></ul>
-                    <button id="gogo">Let's connect</button>
+                    <button id="gogo" onclick="mailme()">Let's connect</button>
                 </div>
                 <div id="right">
                     <h1 id="righthead"><h2 style="opacity: 0.8;">डि<ship class="ship">ZY</ship>इन</h2></h1>
@@ -151,7 +165,51 @@
                 </div>
             </div>
         </div>
-        <div id="page3"></div>
+        <div id="page3">
+            <div id="bentogrid">
+            <div class="leftofbento">
+                <div id="blank"></div>
+            <h1><span class="work">Let's </span><span id="dull">Talk about </span><span class="work">Work</span></h1>
+            <!-- <div id="blank"></div> -->
+            <!-- <div id="blank"></div> -->
+            <div id="contentsofbentoleft">Hey there! Peek into my design playground, a vibrant space where ideas take flight and pixels come alive. Here, I experiment with fresh concepts, craft user-centric solutions, and push the boundaries of design.<br><button id="toportfolio" onclick="toportfolio()">more</button></div>
+            
+            <div id="blank"></div>
+            
+        </div>
+            <div id="thegrid">
+                <!-- <div class="thegriditem" ><img style="padding:8px; scale:1.1" src="/REFIMAGE/grid images/Screenshot 2024-06-23 201805.png"><div class="onhovappear">Miranda <br><p>Developed the user interface for Miranda Paper Portfolio, enhancing design aesthetics, user experience, and functionality for showcasing projects.<br></p></div></div> -->
+                <div class="thegriditem"><img src="/REFIMAGE/grid images/Coffee packaging design trends_1.jpeg"><div class="onhovappear">Coffee Portfolio<br><p>Nvm, i thought coffee would also need a portfolio</p></div></div>
+                <div class="thegriditem"><img src="/REFIMAGE/grid images/e6f0fa3f127aeaf8e56b9492b0a3aeb8.jpg"></div>
+                <div class="thegriditem" id="thirdgirdbox">2<br>0<br>2<br>3</div>
+                <div class="thegriditem"><img style="scale:1.11" src="/REFIMAGE/grid images/Screenshot 2024-06-23 190446.png"><div class="onhovappear" style="font-size: large;">SNKR  SHOP </div></div>
+                <div class="thegriditem"><img src="/REFIMAGE/grid images/Screenshot 2024-06-23 204811.png"><div class="onhovappear" style="font-size: medium;">Internship at Kridhaa.in </div></div>
+                <div class="thegriditem">                    
+                    <div class="balldiv">
+                        <div class="ball"></div>
+                        <div class="ball"></div>
+                        <div class="ball"></div>
+                        
+                    </div>
+                    <div class="balldiv">
+                        <div class="ball"></div>
+                        <div class="ball"></div>
+                    </div>
+                    <div class="balldiv">
+                        <div class="ball"></div>
+                        <div class="ball"></div>
+                        <div class="ball"></div>
+                    </div>
+                    <div class="onhovappear">Heading<br><p>context context context</p></div>
+                </div>
+                <div class="thegriditem"><img src="/REFIMAGE/grid images/coki.png"><div class="onhovappear">The Coke Project<br><p> Redesigned Coca Cola's UI using Figma,<br> enhancing user experience with modern, intuitive interfaces for improved engagement and brand appeal.</p></div></div>
+                <div class="thegriditem"><img src="REFIMAGE/grid images/Screenshot 2024-06-24 000728.png">></div>
+                <div class="thegriditem"><img src="/REFIMAGE/grid images/Screenshot 2024-06-23 191429.png"><div class="onhovappear">DEV Portfolio<br><p>Hey, I'm a dev too.<br>check out my portfoflio</p></div></div>
+
+            </div>
+            </div>
+        </div>
+        <div id="page4"></div>
     </div>
 
     <script src="script.js"></script>
