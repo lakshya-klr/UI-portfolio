@@ -530,7 +530,7 @@ width: 100%;
     font-family:displaymedium;
     font-size: 4vw;
     background:linear-gradient(to right, #23a6d5, #23d5ab);
-    /* -webkit-background-clip: text; */
+    -webkit-background-clip: text;
     position:absolute;
     opacity:0;
 }
@@ -857,7 +857,7 @@ background-color: red;}
     opacity:0.8;
 }
 /* #bentogrid{
-    background-color: red; */
+    /* background-color: red; */
 
 #thegrid{
     /* border:1px solid black; */
@@ -982,8 +982,6 @@ background-color: red;}
 }
 /* .onhovappear p{
     /* font-size: 25px; */
-
-
 .thegriditem:hover .onhovappear{
     transform: translateY(0%);
     box-shadow: 150px 10px 100px black;
