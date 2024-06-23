@@ -1,0 +1,23 @@
+.bigbox{
+    display:flex;
+    /* align-items: center; */
+    height: fit-content;
+    position: relative;
+}
+/* #right{
+    width:50%;
+    height: 100%;
+    /* position: sticky; */
+
+#left{
+    width:50%;
+    font-size: 3vw;
+}
+#smallbox{
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    background-color: red;
+    height: fit-content;
+    top: 0;
+}
+   
