@@ -1,3 +1,7 @@
+a{
+    text-decoration: none;
+}
+
 *{
     scroll-behavior: smooth;
     margin:0;
@@ -1594,7 +1598,7 @@ padding-right: 5px;
 
 @media only screen and (max-width:600px){
     body{
-        background-color: yellow;
+        /* background-color: yellow; */
     }
     nav .right p{
         display: none;
@@ -1688,7 +1692,7 @@ padding-right: 5px;
         font-size: 1vh;
     }
     .businesswrapper p {
-        font-size: 1.8vw;
+        font-size: 2.2vw;
     }
     #wcidfy{
         height: fit-content;
@@ -1792,5 +1796,123 @@ height: 4vh;
 }
 #toportfolio{
     height: 2.2vh;
+}
+.businesswrapper{
+    width: 32%;
+}
+.busiimage{
+    width: 12%;
+}
+.businesswrapper h3 {
+    font-size: 3vw;
+}
+#page4{
+    height: 50vh;
+}
+.imgdiv{
+    height: 40%;
+}
+#coverer h3{
+    font-size: 1vh;
+}
+#frontcard img{
+    width: 70%;
+}
+.hoverme{
+    font-size: 1vh;
+}
+.author{
+    font-size: 0.6vh;
+}
+#middlecard .beyo h3{
+    font-size: small;
+}
+#middlecard .beyo .upper{
+    display: none;
+}
+.beyo .lower p{
+    font-size: 0.6vh;
+    word-spacing: 3px;
+}
+#middlecard .beyo .lower{
+    margin: auto;
+}
+.imagewrapper{
+    height: 10%;
+    width: 30%;
+}
+#lastcard{
+    overflow: hidden;
+}
+#page5{
+    height: 40vh;
+}
+.quoter{
+    height: 8%;
+}
+.endors{
+    padding:10px;
+}
+.endocontent{
+    font-size: 0.75vh;
+    word-spacing: normal;
+}
+#page5 .right{
+    width: 90%;
+    justify-content: start;
+}
+#page5 .right .rightleft{
+    width: 50%;
+}
+#page5 .right .rightright{
+    width: 50%;
+}
+.person .photo{
+    height: 3vh;
+    width: 3vh;
+}
+.revby h3{
+    font-size: 3vw;
+}
+.revby p{
+    font-size: 0.7vh;
+}
+.leftimg{
+    height: 85%;
+}
+footer{
+    height: 20vh;
+}
+footer .upper{
+    overflow: hidden;
+}
+footer .lower{
+    font-size: 1vh;
+}
+.upper .left{
+    width: 50%;
+}
+.upper .left p:nth-child(2){
+    display: none;
+}
+.upper .right{
+    width: 50%;
+    padding:0;
+    align-items: start;
+}
+.details{
+    width: 80%;
+}
+.upper .right .photo{
+    height: 10vw;
+    width: 10vw;
+    margin-right: 2%;
+}
+.details h3{
+    font-size: 2vh;
+}
+.details p{
+    font-size: 1vh;
+    margin-top:2%;
 }
 }
