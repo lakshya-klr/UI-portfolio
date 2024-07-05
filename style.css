@@ -121,7 +121,17 @@ margin-left:5vw;
     margin-left:-15px;
     width: 60px;
   }
-  
+  .hidden{
+    opacity:0;
+    transition:all 1s;
+    filter: blur(10px);
+    transform: translateY(50%);
+}
+.show{
+    filter:blur(0);
+    opacity:1;
+    transform: translateY(0);
+}
   label {
     position: absolute;
     top: 50%;
