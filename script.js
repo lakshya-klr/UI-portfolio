@@ -14,8 +14,21 @@ function menuslider(){
 function toportfolio(){
     window.open("https://lakshya-klr.github.io/My-Portfolio-responsive/");
 }
+function opengit(){
+    window.open("https://github.com/lakshya-klr");
+}
+function openlinkedin(){
+    window.open("https://www.linkedin.com/in/lakshya-kalra-397332236?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3ByqRzvfDYTLqAnZNBqVX80w%3D%3D");
+}
+function openig(){
+    window.open("https://www.instagram.com/_.laksh._13?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==");
+}
+
 function mailme(){
     window.location.href="mailto:lakshyakalra1403@gmail.com"
+}
+function menuup(){
+    menu.classList.toggle("up");
 }
 document.getElementById('frontcard').addEventListener('mouseover', function() {
     document.getElementById('lastcard').style.transform = 'rotate(0deg)';
