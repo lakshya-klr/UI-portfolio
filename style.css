@@ -1701,9 +1701,6 @@ padding-right: 5px;
     .lasttext{
         font-size: 1vh;
     }
-    .businesswrapper p {
-        font-size: 2.2vw;
-    }
     #wcidfy{
         height: fit-content;
     }
@@ -1931,5 +1928,60 @@ footer .lower{
     margin:auto;
     width:90%;
     margin-left:5%;
+}
+.flexwrapper{
+    display:inline;
+}
+.businesswrapper{
+    width: 100%;
+}
+#wcidfy h1{
+    font-size: 4vw;
+    margin-bottom: 4%;
+}
+.businesswrapper h3{
+    font-size: 3.4vw;
+}
+.businesswrapper p{
+    font-size: 3vw;
+}
+.busiimage {
+    width: 5%;
+    margin-right: 10px;
+}
+.headingwrapper .box h1 {
+    font-size: 1.17rem;
+}
+.lasttext {
+    font-size: 3vw;
+}
+.headingwrapper .box h4 {
+    font-size: medium;
+}
+/* #rightaligned{
+    text-align: right;
+    
+}
+#rightend{
+    justify-content: end;
+} */
+.businesswrapper{
+    border-radius: 14px;
+    padding:10px;
+    border:1px solid black;
+    margin-bottom: 10px;
+}
+#page3 h1{
+    font-size: 4vw;
+}
+#contentsofbentoleft{
+    font-size: 2.4vw;
+}
+#beyonddesign h3{
+    font-size: 3.4vw;
+}
+#coverer h3 {
+    font-size: 2.4vw;
+    font-family: 'displaylight';
 }
 }
