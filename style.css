@@ -37,7 +37,7 @@ background-color: #f5f5f7;
 } */
  .down{
     transform:translateY(1%);
-    background-color: red;
+/*     background-color: red; */
     /* display:inline-b; */
  }
 .up{
@@ -394,7 +394,7 @@ width: 100%;}
     text-align: center;
     line-height: 18vh;
     font-size: 10vw;
-    background-color: red;
+/*     background-color: red; */
     color:black;
     padding-right:5vw;
 }
@@ -1541,7 +1541,7 @@ font-size: small;
 }
 @media only screen and (min-width: 600px) and (max-width: 1500px) {
     body{
-        background-color: red;
+/*         background-color: red; */
     }
     #clicker{
         display: none;
