@@ -1788,13 +1788,13 @@ padding-right: 5px;
         font-size: 2vh;
         height: 15vh;
         border-radius: 12px;
-        width: 30%;
+        width: 28%;
         border:1px solid black;
     }
     #pointerblock2{
         height: 15vh;
         font-size: 2vh;
-        width: 30%;    border-radius: 12px;
+        width: 28%;    border-radius: 12px;
         border:1px solid black;
     }
     #leftcase .parentwrap{
@@ -2224,13 +2224,13 @@ footer .lower{
     font-size: 2vh;
     height: 15vh;
     border-radius: 12px;
-    width: 30%;
+    width: 28%;
     border:1px solid black;
 }
 #pointerblock2{
     height: 15vh;
     font-size: 2vh;
-    width: 30%;    border-radius: 12px;
+    width: 28%;    border-radius: 12px;
     border:1px solid black;
 }
 #leftcase .parentwrap{
