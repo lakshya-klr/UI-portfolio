@@ -1,3 +1,5 @@
+var pointerblock = document.getElementById("pointerblock");
+var caseblock =document.getElementById("caseblock");
 var loader=document.querySelector("#loader");
 var menu=document.getElementById("menu");
 setTimeout(function(){
@@ -27,9 +29,44 @@ function openig(){
 function mailme(){
     window.location.href="mailto:lakshyakalra1403@gmail.com"
 }
+
+
+
+
+function openzomato(){
+    window.open("https://medium.com/@lakshyakalra1403/zomatos-ux-enhancement-for-ios-users-1989d1916c57");
+}
+function opengpay(){
+    window.open("https://medium.com/@lakshyakalra1403/google-pays-rise-to-upi-dominance-in-india-ux-case-study-301b5fe00b14");
+}
+
+
+
+
+
 function menuup(){
     menu.classList.toggle("up");
 }
+function pointerexpand() {
+    document.getElementById('pointerblock').style.width = '70%';
+    document.getElementById('caseblock').style.width = '28%';
+   
+};
+ function pointershort() {
+    document.getElementById('pointerblock').style.width = '28%';
+    document.getElementById('caseblock').style.width = '70%';
+   
+};
+function pointerexpand2() {
+    document.getElementById('pointerblock2').style.width = '70%';
+    document.getElementById('caseblock2').style.width = '28%';
+   
+};
+ function pointershort2() {
+    document.getElementById('pointerblock2').style.width = '28%';
+    document.getElementById('caseblock2').style.width = '70%';
+   
+};
 document.getElementById('frontcard').addEventListener('mouseover', function() {
     document.getElementById('lastcard').style.transform = 'rotate(0deg)';
     document.getElementById('lastcard').style.scale = '0.9';
