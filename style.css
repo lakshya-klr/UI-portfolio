@@ -833,7 +833,7 @@ position: relative;
 
 }
 #page3{
-    height: 100vh;
+    height: 170vh;
     width: 100vw;
     /* background-color: green; */
     font-family:displaymedium ;
@@ -863,7 +863,7 @@ position: relative;
 }
 .leftofbento{
     /* background-color: red; */
-    height: 100vh;
+    height: 80vh;
     width:32%;
     /* display: none; */
     /* overflow: hidden; */
@@ -969,8 +969,9 @@ position: relative;
 }
 #bentogrid{
     display: flex;
-    height: 100vh;
-    margin-left:5vw;
+    height: 80vh;
+    margin-left:5vw;   
+    /* background-color: blue; */
     margin-right:5vw;
 }
 #toportfolio{
