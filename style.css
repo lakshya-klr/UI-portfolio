@@ -1253,7 +1253,8 @@ height: 50%;
 .businesswrapper p{
     color:rgb(183, 179, 179);
     word-spacing: 0.5vh;
-    transition:0.5s
+    transition:0.5s;
+    padding:5px;
 }
 .businesswrapper p:hover{
     color:black;
@@ -1281,12 +1282,16 @@ height: 50%;
     color:rgb(183, 179, 179);
 }
 .wraps{
-    margin-top:14%;
-    height: 100%;
+    /* margin-top:14%; */
+    height: fit-content;
+    width:120%;
     /* background-color: gray; */
 }
 #middlecard{
     /* display:inline; */
+    /* padding:10px;
+    padding-top: 20px; */
+    display: flex;
     color:white;
     align-items: center;
     justify-content: center;
@@ -1311,7 +1316,11 @@ height: 50%;
 }
 #middlecard .beyo .lower{
     width:80%;
+    margin-bottom: 10px;
     /* background-color: blue; */
+}
+#middlecard .beyo .lower h3{
+    margin-bottom: 5px;
 }
 
 
